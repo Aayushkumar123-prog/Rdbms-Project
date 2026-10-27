@@ -1,0 +1,3 @@
+- Campus video: “College students walking on campus” and “Students studying outdoors”, Coverr. Free commercial rights. Pages: https://coverr.co/videos/college-students-walking-on-campus-uxrcpu2tzy and https://coverr.co/videos/students-studying-outdoors-tconctyyeg
+- Opening loader: “Green Spinning Loader” by Ross Bentley, LottieFiles Lottie Simple License: https://lottiefiles.com/free-animation/green-spinning-loader-vMr81JO6U6
+- Lottie web player 5.13.0, MIT License. See `lottie-web-LICENSE.md`.

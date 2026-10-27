@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f2eee4">
+<title>Log in | campusfound</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/login.css?v=paper-2026-10-24">
+<link rel="stylesheet" href="/static/remember.css?v=consent-2026-10-24">
+<link rel="stylesheet" href="/static/handmade-login.css?v=paper-2026-10-24">
+</head>
+<body>
+<header class="login-nav"><a class="login-brand" href="/"><span class="brand-mark">c.</span><span>campusfound<small>LOST &amp; FOUND NETWORK</small></span></a><a class="back-link" href="/">Back to campusfound <span aria-hidden="true">&#8599;</span></a></header>
+<main>
+<section class="login-hero" id="login-top">
+  <video class="login-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="/static/campus-community.mp4" type="video/mp4"></video><div class="login-video-shade"></div><div class="film-grain" aria-hidden="true"></div>
+  <div class="login-copy login-reveal"><div class="login-kicker"><span class="kicker-dot"></span> YOUR CAMPUS, CONNECTED</div><h1>Pick up<br>where you <em>left off.</em></h1><p>Sign in to see your reports, claims, and possible item matches.</p><div class="login-proof"><span class="proof-line"></span><span>A little closer to a reunion.</span></div></div>
+  <div class="login-card login-reveal" id="login-card">
+    <div class="card-index">CAMPUS ACCOUNT <span>01 / 01</span></div><h2>Sign in.</h2><p class="card-intro">Pick up where you left off.</p>
+    <form id="login-form">
+      <div class="login-field"><label for="email">CAMPUS EMAIL</label><input id="email" name="email" type="email" autocomplete="username" required placeholder="you@campus.edu"></div>
+      <div class="login-field"><label for="password">PASSWORD</label><input id="password" name="password" type="password" autocomplete="current-password" required placeholder="Your password"></div>
+      <label class="remember-device" for="remember-device"><input id="remember-device" type="checkbox"><span><strong>Remember this device</strong><small>After sign-in, your browser can ask to save these details.</small></span></label>
+      <div class="login-error" id="login-error" role="alert" aria-live="polite"></div>
+      <button class="login-submit" type="submit"><span>Log in</span><span aria-hidden="true">&#8594;</span></button>
+    </form>
+    <p class="join-note">New to campusfound? <a href="/?join=1">Create an account</a></p>
+    <div class="privacy-note"><span aria-hidden="true">&#9679;</span> Private student accounts. Verified handovers.</div>
+  </div>
+  <a class="scroll-cue" href="#why" aria-label="Scroll to learn more"><span>SCROLL TO EXPLORE</span><i></i></a>
+</section>
+<section class="login-notes" id="why"><div class="notes-heading login-reveal"><div class="login-kicker dark-kicker">WHAT YOUR ACCOUNT KEEPS</div><h2>Your details, in one place.</h2></div><div class="note-grid"><article class="note-card login-reveal"><span>01</span><h3>Keep track</h3><p>Your reports and updates stay together in one place.</p></article><article class="note-card login-reveal"><span>02</span><h3>Spot a match</h3><p>See when a found item could be the one you lost.</p></article><article class="note-card login-reveal"><span>03</span><h3>Bring it home</h3><p>Ownership claims are reviewed before handover.</p></article></div><a class="back-to-top" href="#login-top">Back to sign in <span aria-hidden="true">&#8593;</span></a></section>
+</main>
+<footer class="login-footer"><a class="login-brand" href="/"><span class="brand-mark">c.</span><span>campusfound<small>LOST &amp; FOUND NETWORK</small></span></a><span>Built for a more connected campus.</span></footer>
+<script src="/static/login.js?v=consent-2026-10-24"></script><script src="/static/film.js?v=campus-2026-10-24"></script>
+</body>
+</html>
